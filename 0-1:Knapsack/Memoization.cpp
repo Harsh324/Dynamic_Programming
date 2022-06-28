@@ -21,9 +21,9 @@ int Knapsack(int Wt[], int Val[], int Cap , int Sz)
 int main()
 {
     memset(DP, -1, sizeof(DP));
-    int value[] = {60, 100, 120};
-    int weight[] = {10, 20, 30};
-    int W = 50;
+    int value[] = {1, 2, 3};
+    int weight[] = {4, 5, 1};
+    int W = 3;
     cout<<Knapsack(weight, value, W, 3)<<endl;
     return 0;
 }
