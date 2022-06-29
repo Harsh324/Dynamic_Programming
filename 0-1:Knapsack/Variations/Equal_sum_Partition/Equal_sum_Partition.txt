@@ -1,0 +1,15 @@
+## Equal Sum partition
+
+    ** The Problem states that given an array we need to divide the array in two subsets,
+       such that both subset has same sum.
+
+    ** If possible to do so the return True else return False;
+
+    ** This problem is extended version of Subset Sum problem
+
+    ** if Sum is Odd then it is Not possible to get such two subsets.
+
+    ** if Sum is even then We need to find a Subset with Sum / 2;
+    
+     
+
