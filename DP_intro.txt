@@ -1,0 +1,17 @@
+## Dynamic Programming
+
+    ** Enhanced Recursion can be said as Dynamic programming
+
+    ** How to identify the problem as DP problem
+
+        1. All methods to identify Recursion is used to identify DP.
+
+            ** Call for the function more than one time may be required.
+
+        2. Optimality
+
+            ** Requirement for maximize , minimize, Largest, smallest can be asked.
+
+    ** Steps to Make Recursive function
+
+        1. Write Recursive code , Memoize it and write Top down approach.
