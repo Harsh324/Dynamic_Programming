@@ -1,0 +1,17 @@
+## Subset sum problem
+
+    ** This problem states that a set is given along with a sum. 
+       we need to check wether any subset with the given sum is present in th set or not.
+
+    ** Similarity of This problem with 0-1:Knapsack is ther is a maximum sum and also choice,
+       to choose the element of the set.
+
+    ** We will write the base case for the problem 
+
+        if Size of set is Zero return False;
+
+        if Sum is Zero return True
+
+    ** Again we will take matrix DP[N + 1][Sum + 1] where N is Size of set and Sum is the given Sum.
+
+        DP[N][W] will return True or False.
