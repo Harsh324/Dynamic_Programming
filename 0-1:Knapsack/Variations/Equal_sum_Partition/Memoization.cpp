@@ -3,31 +3,21 @@ using namespace std;
 
 bool DP[100][100];
 
+
 bool Sub_sum(int Arr[], int Sum, int N)
 {
-    for(int i = 0; i <= N; i++)
-    {
-        for(int j = 0; j <= Sum; j++)
-        {
-            if(i == 0)
-                DP[i][j] = false;
-            if(j == 0)
-                DP[i][j] = true;
-        }
-    }
+    if(Sum == 0)
+        return true;
+    
+    if(N == 0)
+        return false;
 
-    for(int i = 1; i <= N; i++)
-    {
-        for(int j = 1; j <= Sum; j++)
-        {
-            if(Arr[i - 1] <= j)
-                DP[i][j] = DP[i  -1][j - Arr[i - 1]] || DP[i - 1][j];
-            else
-                DP[i][j] = DP[i - 1][j];
-        }
-    }
-    return DP[N][Sum];
+    if(Arr[N - 1] <= Sum)
+        return DP[N][Sum] = Sub_sum(Arr, Sum - Arr[N - 1], N - 1) || Sub_sum(Arr, Sum , N - 1);
+    else
+        return DP[N][Sum] = Sub_sum(Arr, Sum, N - 1);
 }
+
 
 bool Equal_Sum_Partiton(int Arr[], int N)
 {
