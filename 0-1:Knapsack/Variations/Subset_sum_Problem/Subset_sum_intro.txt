@@ -3,7 +3,7 @@
     ** This problem states that a set is given along with a sum. 
        we need to check wether any subset with the given sum is present in th set or not.
 
-    ** Similarity of This problem with 0-1:Knapsack is ther is a maximum sum and also choice,
+    ** Similarity of This problem with 0-1:Knapsack is that there is a maximum sum and also choice,
        to choose the element of the set.
 
     ** We will write the base case for the problem 

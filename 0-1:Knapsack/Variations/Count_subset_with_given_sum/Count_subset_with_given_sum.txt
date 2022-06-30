@@ -2,6 +2,6 @@
 
     ** This problem states that given an array and Sum we need to count the subsets with the given Sum.
 
-    ** Cose is similar with the Subset sum problem.
+    ** Base Case is similar with the Subset sum problem. 
 
     
