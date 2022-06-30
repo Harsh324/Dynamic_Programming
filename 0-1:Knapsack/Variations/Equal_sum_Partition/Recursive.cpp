@@ -31,7 +31,6 @@ bool Equal_Sum_Partiton(int Arr[], int N)
 
 int main()
 {
-    int set[] = {3, 34, 4, 12, 5, 2};
-    int sum = 30;
-    cout<<Sub_sum(set, sum, 6)<<endl;
+    int set[] = {1, 3, 3, 3};
+    cout<<Equal_Sum_Partiton(set, 4)<<endl;
 }
