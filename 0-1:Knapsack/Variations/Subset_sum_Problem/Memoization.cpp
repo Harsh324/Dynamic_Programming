@@ -3,6 +3,7 @@ using namespace std;
 
 bool DP[100][100];
 
+
 bool Sub_sum(int Arr[], int Sum, int N)
 {
     if(Sum == 0)
@@ -11,11 +12,10 @@ bool Sub_sum(int Arr[], int Sum, int N)
     if(N == 0)
         return false;
 
-
-    if(DP[N - 1][Sum] <= Sum)
-        return DP[N][Sum] = DP[N - 1][Sum - DP[N][Sum]] || DP[N - 1][Sum];
+    if(Arr[N - 1] <= Sum)
+        return DP[N][Sum] = Sub_sum(Arr, Sum - Arr[N - 1], N - 1) || Sub_sum(Arr, Sum , N - 1);
     else
-        DP[N][Sum] = DP[N - 1][Sum];
+        return DP[N][Sum] = Sub_sum(Arr, Sum, N - 1);
 }
 
 int main()
