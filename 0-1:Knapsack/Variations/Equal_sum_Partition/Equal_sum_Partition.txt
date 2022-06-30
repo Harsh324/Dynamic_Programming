@@ -11,5 +11,6 @@
 
     ** if Sum is even then We need to find a Subset with Sum / 2;
     
-     
+
+    ** if Sum is even just call for the Sum of Subset function at Sum = Sum / 2; 
 
