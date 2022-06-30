@@ -3,7 +3,6 @@ using namespace std;
 
 bool Sub_sum(int Arr[], int Sum, int N)
 {
-    cout<<"Sum = "<<Sum <<" , N = "<<N<<endl;
     if(Sum == 0)
         return true;
     
