@@ -1,0 +1,24 @@
+## Minimum Subset sum difference 
+
+    ** The Problem statement says that given an array we need to Get two subsets such that,
+       absolute Difference of their Sum is Minimum.
+
+    ** We need to return the Minimus Absolute Difference.
+
+    ** Similarity with the Equal sum subset Problem could be that in that problem Minimum Difference is Zero.
+
+    ** Let the Two Such such subset has Sums as S1 and S2.We will try to find the Range,
+       of Possible values for S1 and S2.
+
+    ** Since Subset could be either Null or Equal to Array, hence Possible Ranges for the,
+       S1 and S2 will be 0 and Sum of the Array.
+       
+
+    ** So S1 and S2 will lie in The Range {0,sum(Arr)}
+
+    ** We will Figure out All Possible Sum that could be possible with any subset in the given range. 
+       Thus there will be a set of all posiible sums.
+
+    ** In this set half value  are the absolute value of (Nax Sum - other).
+
+    ** This Problem is Extended part of the Subset Sum Problem.
