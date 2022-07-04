@@ -17,10 +17,10 @@ int Knapsack(int Wt[], int Val[], int Cap, int Sz)
     {
         for(int j = 1; j < Cap + 1; j++)
         {
-            if(Wt[i - 1] <= Cap)
+            if(Wt[i - 1] <= j)
                 DP[i][j] = max(Val[i - 1] +  DP[i - 1][j - Wt[i - 1]] , DP[i - 1][j]);
             
-            else if(Wt[i - 1] > Cap)
+            else if(Wt[i - 1] > j)
                 DP[i][j] = DP[i - 1][j];
         }
     }
