@@ -1,1 +1,10 @@
-## Coin
+## Coin change problems
+
+    ** Problem statement is that an array of Possible coins is given and a Sum is given we need to Get,
+       that Sum with the variation asked in the problem.
+
+    ** Coin Supply is not limited
+
+    ** This Problem consists of two variations 
+       1. Minimum Number of coins
+       2. Maximum Number of ways
