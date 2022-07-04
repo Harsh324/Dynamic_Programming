@@ -1,0 +1,15 @@
+## Rod cutting problem 
+
+    ** Length[] : {1, 2, 3, 4, 5 ,6, 7 ,8}
+       Prize[] : {1, 5, 8,9, 10, 17, 17, 20}
+       N = 8
+
+    ** Given a rod of Length N we can cut the rod infinite number of times,
+       we need to maximize the Profit Obatined by Cutting the Rod.
+
+    ** some times only prize array is given then we can generate length array Ranging {1, N}
+
+    ** This Resembles Knapsack But here any number of pieces can be taken,
+       Hence it resembles Unbounded Knapsack.
+       
+        
