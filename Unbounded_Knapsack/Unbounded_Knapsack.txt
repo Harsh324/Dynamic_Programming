@@ -1,0 +1,16 @@
+## Unbounded Knapsack
+
+    ** As we know in the case of 0-1:Knapsack there was a weight array and a value array of items given
+       for any item we are given a choice to whether include it or not in the Knapsack.
+       So after decision of choice an item is processed and this item is never added in knapsack.
+
+    ** But in Unbounded knapsack any item can be taken into consideration again even after choice decison,
+       is taken. Basically supply for any item is unlimited.
+
+    ** Allows multiple occurences of same item.
+
+    ** Variations based on Knapsack are 
+        1. Rod Cutting
+        2. Coin Change 1
+        3. Coin Change 2
+        4. Maximum Ribbon cut
